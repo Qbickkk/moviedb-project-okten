@@ -2,7 +2,7 @@
 
 <div align="center" >
 Project API -> https://developer.themoviedb.org/reference/intro/getting-started
-<br/>
+<br/><br/>
 Some API info is here -> https://www.themoviedb.org/settings/api
 </div>
 
