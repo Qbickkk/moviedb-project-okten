@@ -13,7 +13,7 @@ const GenrePage = () => {
 
     useEffect(() => {
         dispatch(genreActions.getByGenreId({id}))
-    }, [dispatch]);
+    }, [dispatch, id]);
 
     return (
         <div>

@@ -11,7 +11,7 @@ const MoviesContainer = () => {
 
     useEffect(() => {
         dispatch(movieActions.getAll(page))
-    }, [dispatch]);
+    }, [dispatch, page]);
 
     return (
         <div className={css.Movies}>

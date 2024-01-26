@@ -17,7 +17,7 @@ const Pagination = () => {
             }else {
                 dispatch(movieActions.getAll({page}))
             }
-    }, [page]);
+    }, [page, dispatch, id]);
 
 
     const prevHandler = () => {
